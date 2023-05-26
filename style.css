@@ -1,0 +1,62 @@
+form{
+    background-color: rgb(159, 204, 189);
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 15px;
+    padding: 30px; 
+    
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+input{
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    inset: 0px 20px;
+}
+
+input:focus
+,textarea:focus{
+    border: 1px solid blue;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    padding: 5px 50px;
+    box-shadow: -5px 5px 2px  black;
+
+}
+
+button:hover{
+    border: 1.5px solid black;
+}
+
+button:active{
+    box-shadow: none;
+    transform: translate(-5px,5px);
+}
+
+.form-elements{
+    margin: 0 auto;
+    display: block;
+}
